@@ -4,6 +4,7 @@ import {MatButtonModule} from "@angular/material/button";
 import {MatIconModule} from "@angular/material/icon";
 import {MatDialog} from "@angular/material/dialog";
 import {RegisterFromComponent} from "../register-from/register-from.component";
+import {HttpClient, HttpClientModule} from "@angular/common/http";
 
 @Component({
   selector: 'app-toolbar',

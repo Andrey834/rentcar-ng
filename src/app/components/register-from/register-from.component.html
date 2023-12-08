@@ -3,34 +3,35 @@
   <div>
     <mat-form-field>
       <mat-label>Username</mat-label>
-      <input matInput placeholder="Username" value="">
+      <input matInput placeholder="Username" value="" [(ngModel)]="username">
     </mat-form-field>
     <mat-form-field>
       <mat-label>Password</mat-label>
-      <input type="password" matInput placeholder="Password" value="">
+      <input type="password" matInput placeholder="Password" value="" [(ngModel)]="password">
     </mat-form-field>
   </div>
   <div>
     <mat-form-field>
       <mat-label>First name</mat-label>
-      <input matInput placeholder="First name" value="">
+      <input matInput placeholder="First name" value="" [(ngModel)]="firstName">
     </mat-form-field>
     <mat-form-field>
       <mat-label>Last name</mat-label>
-      <input matInput placeholder="Last name" value="">
+      <input matInput placeholder="Last name" value="" [(ngModel)]="lastName">
     </mat-form-field>
   </div>
   <div>
     <mat-form-field>
       <mat-label>Email</mat-label>
-      <input matInput placeholder="Email" value="">
+      <input matInput placeholder="Email" value="" [(ngModel)]="email">
     </mat-form-field>
     <mat-form-field>
       <mat-label>Birthday</mat-label>
-      <input matInput placeholder="Birthday" value="">
+      <input matInput placeholder="Birthday" value="" [(ngModel)]="birthday">
     </mat-form-field>
   </div>
 </div>
 <div mat-dialog-actions>
   <button mat-button mat-dialog-close>Close</button>
+  <button mat-button mat-dialog-close (click)="register()">Register</button>
 </div>
