@@ -1,6 +1,21 @@
 mat-paginator {
-  background-color: #6573c3;
-  position: absolute;
+  /*background-color: #6573c3;
+  position: fixed;
   width: 100%;
   bottom: 0;
+  z-index: 99;
+  padding-right: 10px;
+  max-font-size: 8px;
+  container: unset;*/
+  background-color: #6573c3;
+  position: fixed;
+  width: 100%;
+  height: 6%;
+  bottom: 0;
+}
+
+mat-mdc-paginator-container {
+  width: 100%;
+  position: relative;
+  text-align: center;
 }

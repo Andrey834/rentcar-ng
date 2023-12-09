@@ -5,7 +5,7 @@ import {ToolbarComponent} from "./components/toolbar/toolbar.component";
 import {PaginatorComponent} from "./components/paginator/paginator.component";
 import {FormsModule} from "@angular/forms";
 import {RegisterFromComponent} from "./components/register-from/register-from.component";
-import {HttpClientModule} from "@angular/common/http";
+import {SidenavDrawerComponent} from "./components/sidenav-drawer/sidenav-drawer.component";
 
 @Component({
   selector: 'app-root',
@@ -16,7 +16,9 @@ import {HttpClientModule} from "@angular/common/http";
     ToolbarComponent,
     PaginatorComponent,
     RegisterFromComponent,
-    FormsModule],
+    FormsModule,
+    SidenavDrawerComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

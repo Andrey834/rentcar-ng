@@ -1,8 +1,16 @@
-h1{
+h1 {
   text-align: center;
   margin: auto auto 10px;
 }
 
-mat-form-field{
+mat-form-field {
   margin: 8px;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+mat-dialog-content {
+  background-color: blue;
 }

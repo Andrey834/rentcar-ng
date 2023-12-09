@@ -13,6 +13,6 @@ export class PersonRegisterService {
   }
 
   registerPerson(person: Person): Observable<Person> {
-    return this.client.post<Person>("http://localhost:8080/users/register", person)
+    return this.client.post<Person>("http://192.168.0.15:9090/users/register", person)
   }
 }

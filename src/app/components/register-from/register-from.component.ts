@@ -6,6 +6,7 @@ import {PersonRegisterService} from "../../services/person-register.service";
 import {Person} from "../../interface/person";
 import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
+import {MatDatepickerModule} from "@angular/material/datepicker";
 
 @Component({
   selector: 'app-register-from',
